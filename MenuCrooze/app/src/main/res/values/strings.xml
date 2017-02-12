@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Crooz</string>
+    <string name="social_tab">Social</string>
+    <string name="routes_tab">Routes</string>
+    <string name="weather_tab">Weather</string>
+    <string name="Login">Login</string>
+    <string name="Register">Register</string>
+    <string name="Password">Password</string>
+    <string name="Username">Username</string>
+    <string name="title_activity_maps">Map</string>
+<string name="Name">Name</string>
+    <string name="ReadytoCrooz">Ready to Crooz!</string>
+    <string name="Button">Button</string>
+
+</resources>

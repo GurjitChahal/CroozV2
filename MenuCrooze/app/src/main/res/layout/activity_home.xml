@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/activity_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background = "#ffffff"
+    android:layout_marginTop="0dp"
+    tools:context="com.example.gurjitc96.menucrooze.HomeActivity">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/home_tab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/HomeTabs"
+            android:text="@string/social_tab" />
+
+
+
+        <TextView
+            android:id="@+id/routes_tab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/HomeTabs"
+            android:textColor="#ffffff"
+            android:text="@string/routes_tab" />
+
+        <TextView
+            android:id="@+id/_tab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/HomeTabs"
+            android:text="@string/weather_tab" />
+    </LinearLayout>
+
+
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.gurjitc96.menucrooze.MapsActivity" />
+
+</LinearLayout>

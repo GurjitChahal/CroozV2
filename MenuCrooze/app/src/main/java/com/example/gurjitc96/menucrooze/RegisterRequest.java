@@ -11,12 +11,12 @@ import java.util.Map;
  */
 
 public class RegisterRequest extends StringRequest {
- private static final String REGISTER_REQUEST_URL = "http://crooz.comeze.com/Register.php";
+ private static final String REGISTER_REQUEST_URL = "http://localhost/crooz/register.php";
     private Map<String, String> params;
 
     public RegisterRequest(String name, String username, String password,Response.Listener<String> listener)
     {
-        super(Method.POST, REGISTER_REQUEST_URL, listener, null);
+        super(Method.POST, REGISTER_REQUEST_URL, listener,null);
         params = new HashMap<>();
         params.put("name", name);
         params.put("username", username);
