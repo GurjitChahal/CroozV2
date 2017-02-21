@@ -21,7 +21,7 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:hint="Name" />
+        android:hint="@string/Name" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -34,7 +34,7 @@
         android:id="@+id/etUser"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:hint="Username" />
+        android:hint="@string/Username" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -47,11 +47,12 @@
         android:id="@+id/etPass"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:hint="Password" />
+        android:hint="@string/Password" />
 
 
     <Button
-        android:text="Ready to Crooze!"
+
+        android:text="@string/ReadytoCrooz"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
