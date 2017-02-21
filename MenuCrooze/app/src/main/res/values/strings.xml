@@ -8,8 +8,12 @@
     <string name="Password">Password</string>
     <string name="Username">Username</string>
     <string name="title_activity_maps">Map</string>
-<string name="Name">Name</string>
+    <string name="Name">Name</string>
     <string name="ReadytoCrooz">Ready to Crooz!</string>
     <string name="Button">Button</string>
+    <string name="RouteCardViewMap">View on map</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>
